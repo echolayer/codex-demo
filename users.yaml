@@ -1,0 +1,146 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Gandalf
+spec:
+  memberOf: [Fellowship]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Frodo
+spec:
+  memberOf: [Fellowship]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Pippin
+spec:
+  memberOf: [Fellowship]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Gimli
+spec:
+  memberOf: [Fellowship]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Legolas
+spec:
+  memberOf: [Fellowship]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Éomer
+spec:
+  memberOf: [Riders.of.Rohan]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Éowyn
+spec:
+  memberOf: [Riders.of.Rohan]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Zealot
+spec:
+  memberOf: [Protoss]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Dragoon
+spec:
+  memberOf: [Protoss]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Reaver
+spec:
+  memberOf: [Protoss]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Arbiter
+spec:
+  memberOf: [Protoss]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Zergling
+spec:
+  memberOf: [Zerg]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Baneling
+spec:
+  memberOf: [Zerg]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Hydralisk
+spec:
+  memberOf: [Zerg]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Roach
+spec:
+  memberOf: [Zerg]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Ultralisk
+spec:
+  memberOf: [Zerg]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Fellowship
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Riders.of.Rohan
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Protoss
+spec:
+  type: team
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Zerg
+spec:
+  type: team
+  children: []
+
