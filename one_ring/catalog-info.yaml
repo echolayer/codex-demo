@@ -2,8 +2,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: helms_deep
+  name: one_ring
 spec:
   type: service
   lifecycle: production
-  owner: Riders.of.Rohan
+  owner: Fellowship
+  dependsOn: [helms_deep]

@@ -37,14 +37,14 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Éomer
+  name: Eomer
 spec:
   memberOf: [Riders.of.Rohan]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: Éowyn
+  name: Eowyn
 spec:
   memberOf: [Riders.of.Rohan]
 ---

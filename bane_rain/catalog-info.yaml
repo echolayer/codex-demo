@@ -7,3 +7,4 @@ spec:
   type: service
   lifecycle: experimental
   owner: Zerg
+  dependsOn: [burrow]
